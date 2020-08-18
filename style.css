@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading,
+.players {
+    font-family: 'Luckiest Guy',
+        cursive;
+}
+
+p {
+    font-family: 'Open Sans',
+        sans-serif;
+    padding-top: 20px;
+}
+
+.heading h1 {
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+.players h1 {
+    padding-top: 80px;
+    font-size: 30px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.player1,
+.player2 {
+    display: grid;
+    grid-template-rows: 200px 1fr;
+    text-align: center;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.heading {
+    height: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.dice {
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    position: relative;
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+.green {
+    position: relative;
+    padding-right: 120px;
+    padding-top: 30px;
+}
+
+footer {
+    font-family: 'Luckiest Guy',
+        cursive;
+    text-align: center;
+    margin-top: 9%;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    font-family: 'Luckiest Guy',
+        cursive;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn {
+    position: relative;
+    text-align: center;
+    top: 60px;
+    padding-top: 20px;
+}
